@@ -1,0 +1,82 @@
+[
+	{
+		"id": 1,
+		"title": "Smartphone Pro X",
+		"price": 799.99,
+		"image": "images/smartphone-pro-x.jpg",
+		"hoverImage": "images/smartphone-pro-x-hover.jpg",
+		"description": "A high-end smartphone with an advanced camera system."
+	},
+	{
+		"id": 2,
+		"title": "Wireless Headphones",
+		"price": 199.99,
+		"image": "images/wireless-headphones.jpg",
+		"hoverImage": "images/wireless-headphones-hover.jpg",
+		"description": "Noise-canceling wireless headphones with high-fidelity sound."
+	},
+	{
+		"id": 3,
+		"title": "Gaming Laptop",
+		"price": 1499.99,
+		"image": "images/gaming-laptop.jpg",
+		"hoverImage": "images/gaming-laptop-hover.jpg",
+		"description": "Powerful gaming laptop with a high refresh rate display."
+	},
+	{
+		"id": 4,
+		"title": "Smartwatch Series 5",
+		"price": 299.99,
+		"image": "images/smartwatch-series-5.jpg",
+		"hoverImage": "images/smartwatch-series-5-hover.jpg",
+		"description": "Track your fitness and stay connected with this smartwatch."
+	},
+	{
+		"id": 5,
+		"title": "4K Ultra HD TV",
+		"price": 999.99,
+		"image": "images/4k-ultra-hd-tv.jpg",
+		"hoverImage": "images/4k-ultra-hd-tv-hover.jpg",
+		"description": "Experience stunning visuals with this 4K Ultra HD TV."
+	},
+	{
+		"id": 6,
+		"title": "Bluetooth Speaker",
+		"price": 129.99,
+		"image": "images/bluetooth-speaker.jpg",
+		"hoverImage": "images/bluetooth-speaker-hover.jpg",
+		"description": "Portable Bluetooth speaker with deep bass and clear sound."
+	},
+	{
+		"id": 7,
+		"title": "Mechanical Keyboard",
+		"price": 89.99,
+		"image": "images/mechanical-keyboard.jpg",
+		"hoverImage": "images/mechanical-keyboard-hover.jpg",
+		"description": "RGB backlit mechanical keyboard with customizable keys."
+	},
+	{
+		"id": 8,
+		"title": "Drone with Camera",
+		"price": 499.99,
+		"image": "images/drone-camera.jpg",
+		"hoverImage": "images/drone-camera-hover.jpg",
+		"description": "Capture breathtaking aerial shots with this drone."
+	},
+	{
+		"id": 9,
+		"title": "External SSD 1TB",
+		"price": 149.99,
+		"image": "images/external-ssd.jpg",
+		"hoverImage": "images/external-ssd-hover.jpg",
+		"description": "High-speed external SSD for fast file transfers."
+	},
+	{
+		"id": 10,
+		"title": "Smart Home Assistant",
+		"price": 59.99,
+		"image": "images/smart-home-assistant.jpg",
+		"hoverImage": "images/smart-home-assistant-hover.jpg",
+		"description": "Voice-controlled smart home assistant."
+	}
+]

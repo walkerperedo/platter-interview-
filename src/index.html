@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Custom Scrollbar</title>
+  <title>Slider</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="tailwind.output.css"
+  <link rel="stylesheet" href="./assets/tailwind.output.css">
 </head>
+
 <body>
-  <div class="container">
-    <div class="content">
-      <div class="item">Item 1</div>
-      <div class="item">Item 2</div>
-      <div class="item">Item 3</div>
-      <div class="item">Item 4</div>
-      <div class="item">Item 5</div>
-      <div class="item">Item 6</div>
-      <div class="item">Item 7</div>
-      <div class="item">Item 8</div>
-      <div class="item">Item 8</div>
-      <div class="item">Item 8</div>
-      <div class="item">Item 8</div>
-    </div>
-    <div class="scrollbar">
-      <div class="thumb"></div>
-    </div>
-  </div>
+  <section class="product-slider">
+    <header class="font-text">
+      <h2 class="">Best Sellers</h2>
+      <a href="#" class="">View All</a>
+    </header>
+
+    <carousel-slider class="carousel">
+      <div class="products-grid-container">
+        <ul class="slider__grid" role="list">
+          <product-card>
+
+          </product-card>
+        </ul>
+        <div class="scrollbar">
+          <div class="thumb">
+          </div>
+        </div>
+        <button class="show-more">Show more</button>
+      </div>
+    </carousel-slider>
+  </section>
 
   <script src="script.js"></script>
 </body>
+
 </html>

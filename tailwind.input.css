@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+    --font-text: Poppins, sans-serif;
+    --font-subtitle: BebasNeue, sans-serif;
+    --font-title: SerifProBold, sans-serif; 
+}
