@@ -6,7 +6,9 @@
 		"image": "./assets/images/audifonos.jpeg",
 		"hoverImage": "./assets/images/lentes.jpeg",
 		"reviews": "500 Reviews",
-		"description": "A high-end smartphone with an advanced camera system."
+		"description": "A high-end smartphone with an advanced camera system.",
+		"labels": ["BEST SELLER", "SAVE 44%"]
+
 	},
 	{
 		"id": 2,
@@ -33,7 +35,8 @@
 		"image": "./assets/images/banana.jpeg",
 		"hoverImage": "./assets/images/car.jpeg",
 		"reviews": "589 Reviews",
-		"description": "Track your fitness and stay connected with this smartwatch."
+		"description": "Track your fitness and stay connected with this smartwatch.",
+		"labels": ["BEST SELLER", "SAVE 44%"]
 	},
 	{
 		"id": 5,
@@ -42,7 +45,9 @@
 		"image": "./assets/images/car.jpeg",
 		"hoverImage": "./assets/images/8.jpg",
 		"reviews": "852 Reviews",
-		"description": "Experience stunning visuals with this 4K Ultra HD TV."
+		"description": "Experience stunning visuals with this 4K Ultra HD TV.",
+		"labels": ["BEST SELLER", "SAVE 44%"]
+
 	},
 	{
 		"id": 6,

@@ -2,7 +2,6 @@ if (!customElements.get('product-card')) {
 	class ProductCard extends HTMLElement {
 		constructor() {
 			super()
-			this.state = { count: 0 }
 		}
 
 		connectedCallback() {
@@ -15,9 +14,10 @@ if (!customElements.get('product-card')) {
             const title = this.getAttribute("title") || "Something special"
             const price = this.getAttribute("price") || "9.99"
             const reviews = this.getAttribute("reviews")
+            const labels = this.getAttribute("labels")
 
 			this.innerHTML = `
-            <label-container></label-container>
+            <label-container class="absolute top-0 start z-1 flex justify-between mt-4 w-[90%]" style="justify-self: anchor-center" labels="${labels}"></label-container>
             <figure class="card__media relative rounded-[10px] w-[42vw] h-[42vw] md:w-[18.5vw] md:h-[18.5vw]">
                 <a href="*" class="block rounded-[10px] pt-[100%]">
                     <img src="${featuredImage}" alt="" class="block rounded-[10px] object-cover absolute w-full h-full top-[0px] left-[0] card__main-image">

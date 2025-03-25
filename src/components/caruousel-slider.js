@@ -38,7 +38,7 @@ if (!customElements.get('carousel-slider')) {
             products.forEach(product => {
                 html += `
                 <li class="slider__item w-[42vw] md:w-[18.5vw]">
-                <product-card class="flex flex-col relative h-full" title="${product.title}" price="${product.price}" reviews="${product.reviews}" image="${product.image}" hoverImage="${product.hoverImage}">
+                <product-card class="flex flex-col relative h-full" title="${product.title}" price="${product.price}" reviews="${product.reviews}" image="${product.image}" hoverImage="${product.hoverImage}" labels="${product.labels}">
                 </product-card>
                 </li>`
             });
