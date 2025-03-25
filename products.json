@@ -1,0 +1,92 @@
+[
+	{
+		"id": 1,
+		"title": "Smartphone Pro X",
+		"price": 799.99,
+		"image": "./assets/images/audifonos.jpeg",
+		"hoverImage": "./assets/images/lentes.jpeg",
+		"reviews": "500 Reviews",
+		"description": "A high-end smartphone with an advanced camera system."
+	},
+	{
+		"id": 2,
+		"title": "Wireless Headphones",
+		"price": 199.99,
+		"image": "./assets/images/lentes.jpeg",
+		"hoverImage": "./assets/images/tenis.jpeg",
+		"reviews": "456 Reviews",
+		"description": "Noise-canceling wireless headphones with high-fidelity sound."
+	},
+	{
+		"id": 3,
+		"title": "Gaming Laptop",
+		"price": 1499.99,
+		"image": "./assets/images/tenis.jpeg",
+		"hoverImage": "./assets/images/banana.jpeg",
+		"reviews": "321 Reviews",
+		"description": "Powerful gaming laptop with a high refresh rate display."
+	},
+	{
+		"id": 4,
+		"title": "Smartwatch Series 5",
+		"price": 299.99,
+		"image": "./assets/images/banana.jpeg",
+		"hoverImage": "./assets/images/car.jpeg",
+		"reviews": "589 Reviews",
+		"description": "Track your fitness and stay connected with this smartwatch."
+	},
+	{
+		"id": 5,
+		"title": "4K Ultra HD TV",
+		"price": 999.99,
+		"image": "./assets/images/car.jpeg",
+		"hoverImage": "./assets/images/8.jpg",
+		"reviews": "852 Reviews",
+		"description": "Experience stunning visuals with this 4K Ultra HD TV."
+	},
+	{
+		"id": 6,
+		"title": "Bluetooth Speaker",
+		"price": 129.99,
+		"image": "./assets/images/8.jpg",
+		"hoverImage": "./assets/images/9.jpg",
+		"reviews": "369 Reviews",
+		"description": "Portable Bluetooth speaker with deep bass and clear sound."
+	},
+	{
+		"id": 7,
+		"title": "Mechanical Keyboard",
+		"price": 89.99,
+		"image": "./assets/images/9.jpg",
+		"hoverImage": "./assets/images/100.jpg",
+		"reviews": "966 Reviews",
+		"description": "RGB backlit mechanical keyboard with customizable keys."
+	},
+	{
+		"id": 8,
+		"title": "Drone with Camera",
+		"price": 499.99,
+		"image": "./assets/images/100.jpg",
+		"hoverImage": "./assets/images/8.jpg",
+		"reviews": "936 Reviews",
+		"description": "Capture breathtaking aerial shots with this drone."
+	},
+	{
+		"id": 9,
+		"title": "External SSD 1TB",
+		"price": 149.99,
+		"image": "./assets/images/8.jpg",
+		"hoverImage": "./assets/images/99.jpg",
+		"reviews": "528 Reviews",
+		"description": "High-speed external SSD for fast file transfers."
+	},
+	{
+		"id": 10,
+		"title": "Smart Home Assistant",
+		"price": 59.99,
+		"image": "./assets/images/99.jpg",
+		"hoverImage": "./assets/images/9.jpg",
+		"reviews": "123 Reviews",
+		"description": "Voice-controlled smart home assistant."
+	}
+]
