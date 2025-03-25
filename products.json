@@ -19,7 +19,7 @@
 	},
 	{
 		"id": 3,
-		"title": "Gaming Laptop",
+		"title": "Gaming Laptop Dell G15",
 		"price": 1499.99,
 		"image": "./assets/images/tenis.jpeg",
 		"hoverImage": "./assets/images/banana.jpeg",
@@ -37,7 +37,7 @@
 	},
 	{
 		"id": 5,
-		"title": "4K Ultra HD TV",
+		"title": "4K Ultra Full HD TV 55' ",
 		"price": 999.99,
 		"image": "./assets/images/car.jpeg",
 		"hoverImage": "./assets/images/8.jpg",
