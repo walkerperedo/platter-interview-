@@ -6,33 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Slider</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./components/carousel-slider.css">
   <link rel="stylesheet" href="./assets/tailwind.output.css">
 </head>
 
 <body>
-  <section class="product-slider">
-    <header class="font-text">
-      <h2 class="">Best Sellers</h2>
-      <a href="#" class="">View All</a>
+  <section class="product-slider ml-[7.1%] mr-[7.1%] md:mr-[0px] mt-10">
+    <header class="flex justify-between mb-5 md:mb-10 md:mr-[8%]">
+      <h2 class="font-title text-center md:text-start text-[40px] w-full md:w-auto">Best Sellers</h2>
+      <a href="#" class="font-text text-[14px] text-[#5C553A] flex gap-[10px] hidden md:flex items-center">
+        Shop All Best Sellers
+        <svg viewBox="0 0 14 10" fill="none" aria-hidden="true" focusable="false" role="presentation" class="w-[1.5rem]" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z" fill="currentColor">
+        </svg>
+      </a>
     </header>
 
-    <carousel-slider class="carousel">
-      <div class="products-grid-container">
-        <ul class="slider__grid" role="list">
-          <product-card>
-
-          </product-card>
+    <carousel-slider class="carousel relative">
+      <div class="products-grid-container pb-8">
+        <ul class="slider__grid overflow-y-hidden overflow-x-auto flex justify-between flex-wrap md:flex-nowrap gap-y-[12px] pb-[12px] md:pb-[52px] md:gap-[24px]" role="list">
         </ul>
-        <div class="scrollbar">
+        <div class="scrollbar hidden md:block">
           <div class="thumb">
           </div>
         </div>
-        <button class="show-more">Show more</button>
+        <button type="button" class="bg-[#1C1D1D] text-white rounded-[100px] px-[24px] py-[16px] m-auto w-full md:hidden show-more">Show more</button>
       </div>
     </carousel-slider>
   </section>
 
-  <script src="script.js"></script>
+  <script src="./assets/script.js"></script>
+  <script src="./components/caruousel-slider.js"></script>
+  <script src="./components/product-card.js"></script>
+
 </body>
 
 </html>

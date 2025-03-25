@@ -1,0 +1,33 @@
+.slider__grid {
+	scrollbar-width: none;
+}
+.slider__grid::-webkit-scrollbar {
+	display: none;
+}
+.slider__item.remove {
+	opacity: 0;
+	transform: translateY(-20px);
+	height: 0;
+}
+
+.card__main-image,
+.card__media:hover .card__hover-image {
+	visibility: visible;
+	transition: opacity 0.5s, visibility 0s;
+	opacity: 1;
+}
+.card__hover-image,
+.card__media:hover .card__main-image {
+	visibility: hidden;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+	opacity: 0;
+}
+
+.slider__item{
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.slider__item.remove {
+	opacity: 0;
+	transform: translateY(-20px);
+	height: 0;
+}
