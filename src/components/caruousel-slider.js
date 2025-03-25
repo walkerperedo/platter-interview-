@@ -32,7 +32,7 @@ if (!customElements.get('carousel-slider')) {
 		}
 
         async addProducts(){
-            const res = await fetch('../../products.json')
+            const res = await fetch('./products.json')
             const products =  await res.json()
             let html = ''
             products.forEach(product => {
